@@ -103,6 +103,7 @@ This is the current primary workflow.
 
 ```powershell
 python main.py
+python.exe main.py
 ```
 
 What it does:
@@ -124,6 +125,7 @@ If you want the interactive app:
 
 ```powershell
 python -m streamlit run streamlit_app.py
+.\.venv\Scripts\python.exe -m streamlit run .\streamlit_app.py
 ```
 
 The Streamlit app allows:
